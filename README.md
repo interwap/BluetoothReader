@@ -1,15 +1,11 @@
-# BT01
-This nifty (Android) library lets your applications wirelessly connect to other Bluetooth devices, enabling point-to-point and multipoint wireless features.
-Best suited for use with external bluetooth printers, card reader (Huifan HF7000) and other bluetooth peripherals.
+# Bluetooth Reader (Huifan-HF7000)
 
-Using the BT01 library, an Android application can perform the following:
+Using the Bluetooth Reader library in-tandem with [`BT01`](https://github.com/interwap/BT01) Compile dependency,
+an Android application can perform the following:
 
-- Scan for other Bluetooth devices
-- Query the local Bluetooth adapter for paired Bluetooth devices
-- Establish RFCOMM channels
-- Connect to other devices through service discovery
-- Transfer data to and from other devices
-- Manage connections
+- Capture Fingerprints
+- Match Fingerprints
+- Read NFC Tags & Cards
 
 Usage:
 
@@ -30,11 +26,11 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 ```gradle
     dependencies {
-    	        compile 'com.github.interwap:BT01:v1.0'
+    	        compile 'com.github.interwap:BluetoothReader:v1.0'
     	}
  ```
 
-Get more information about versions and releases here: [`jitpack`](https://jitpack.io/#interwap/BT01/v1.0)
+Get more information about versions and releases here: [`jitpack`](https://jitpack.io/#interwap/BluetoothReader/v1.0)
 
 
 License
